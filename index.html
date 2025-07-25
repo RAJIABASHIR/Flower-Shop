@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower Shop</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flower Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-6 py-4 shadow-md bg-white">
+    <div><img src="/assets/logo.png" alt="" class="h-10" /></div>
+    <div class="hidden md:flex space-x-6">
+      <a href="#" class="hover:text-orange-500">Home</a>
+      <a href="#" class="hover:text-orange-500">Shop</a>
+      <a href="#" class="hover:text-orange-500">About us</a>
+      <div class="flex items-center space-x-2">
+        <span>Cart($56)</span>
+        <i class="fa-solid fa-cart-shopping"></i> 
+     </div>
+    </div>
+    <div class="md:hidden flex items-center space-x-2">
+      <span class="text-sm font-medium">Cart($56)</span>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+  </nav>
 </body>
 </html>
