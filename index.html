@@ -18,12 +18,12 @@
       <a href="#" class="hover:text-orange-500">Shop</a>
       <a href="#" class="hover:text-orange-500">About us</a>
       <div class="flex items-center space-x-2">
-        <span>Cart($56)</span>
-        <i class="fa-solid fa-cart-shopping"></i> 
+        <span class="hover:text-orange-500">Cart($56)</span> 
+        <i class="fa-solid fa-cart-shopping"></i>
      </div>
     </div>
     <div class="md:hidden flex items-center space-x-2">
-      <span class="text-sm font-medium">Cart($56)</span>
+      <span class="text-sm font-medium hover:text-orange-500">Cart($56)</span>
       <i class="fa-solid fa-cart-shopping"></i>
     </div>
   </nav>
@@ -38,7 +38,7 @@
       <img src="/assets/hero-flower.png" alt="" class="w-full" />
     </div>
   </section>
-  
+
   <!-- Plants Section -->
 <section class="px-6 py-12 text-center">
   <h2 class="text-3xl font-bold mb-2">Our Plants</h2>
@@ -112,5 +112,99 @@
     </div>
   </div>
 </section>
+<!-- Plant Lover Section -->
+  <section class="px-6 py-12 flex flex-col md:flex-row items-center gap-6">
+    <div class="relative md:w-1/2">
+      <img src="/assets/flower-store.png" alt="" class="w-full h-auto" />
+      <img src="/assets/trusted-badge.png" alt="" class="absolute top-4 right-4 w-16 h-16 spin-badge hidden md:block" />
+    </div>
+    <div class="md:w-1/2 text-left">
+      <h2 class="text-4xl font-bold">Flower & Plants<br>Lover</h2>
+      <ul class="list-disc ml-5 mt-3 space-y-2">
+        <li>Include your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh </li>
+        <li>Include your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh </li>
+        <li>Include your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a wide variety <br> of fresh </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Latest Deals Section -->
+ <section class="bg-slate-50 px-6 py-12">
+  <h2 class="text-3xl font-bold text-center">
+    <span class="text-orange-500">Latest</span> Deals
+  </h2>
+  <p class="text-center mt-3 mb-8 text-gray-600 text-lg max-w-3xl mx-auto">
+    Indulge your senses with the beauty and fragrance of our fresh flower shop.
+    From classic roses to exotic blooms, we offer a wide variety of fresh.
+  </p>
+ <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch max-w-7xl mx-auto">
+   <div class="flex flex-col gap-4">
+      <div class="relative rounded-xl overflow-hidden shadow-md">
+        <img src="/assets/deal-bloom.png" alt="" class="w-full " />
+        <div class="absolute inset-0 bg-black/30 flex flex-col justify-center items-start px-6">
+          <h3 class="text-white text-lg font-bold">60% Off | Bloom Plant</h3>
+          <a href="#" class="mt-2 text-white underline font-semibold">Shop Now</a>
+        </div>
+      </div>
+      <div class="relative rounded-xl overflow-hidden shadow-md">
+        <img src="/assets/deal-ana.png" alt="" class="w-full" />
+        <div class="absolute inset-0 bg-black/30 flex flex-col justify-center items-start px-6">
+          <h3 class="text-white text-lg font-bold">30% Off | Ana Plant</h3>
+          <a href="#" class="mt-2 text-white underline font-semibold">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="md:col-span-2 relative rounded-xl overflow-hidden shadow-md">
+      <img src="/assets/deal-zabo.png" alt="" class="w-full" />
+      <div class="absolute inset-0 bg-black/30 flex flex-col justify-center items-center px-6 text-center">
+        <h3 class="text-white text-3xl font-bold">25% Off | Zabo Plant</h3>
+        <a href="#" class="mt-3 text-white underline font-semibold text-lg">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Join Section -->
+  <section class="px-6 py-12 bg-cover bg-center text-white text-center" style="background-image: url('/assets/news-letter-bg.png');">
+    <h2 class="text-2xl font-bold mb-4">Join the colorful <span class="text-orange-300">Bunch</span></h2>
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+      <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded text-black w-64" />
+      <button class="bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded text-white">Subscribe</button>
+    </div>
+  </section>
+<!-- Footer -->
+<footer class="bg-gray-100 py-10 px-6 mt-10">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
+
+    <div>
+      <img src="/assets/logo.png" alt="" class="w-28 mb-3" />
+      <p class="text-gray-500 text-sm">
+        Indulge your senses with the beauty and fragrance of our fresh flower shop.
+      </p>
+    </div>
+
+    <div class="flex flex-col gap-2 text-sm text-gray-700">
+      <a href="#" class="hover:text-orange-500">Home</a>
+      <a href="#" class="hover:text-orange-500">About Us</a>
+      <a href="#" class="hover:text-orange-500">Blog</a>
+      <a href="#" class="hover:text-orange-500">FAQ</a>
+      <a href="#" class="hover:text-orange-500">Contact Us</a>
+    </div>
+
+    <div class="flex flex-col gap-2 text-sm text-gray-700">
+      <a href="#" class="hover:text-orange-500">Features</a>
+      <a href="#" class="hover:text-orange-500">Pricing</a>
+      <a href="#" class="hover:text-orange-500">Privacy Policy</a>
+      <a href="#" class="hover:text-orange-500">Terms of Service</a>
+      <a href="#" class="hover:text-orange-500">Help Center</a>
+    </div>
+
+    <div class="flex gap-4">
+      <a href="#"><img src="/assets/icon-linkedin.png" alt="" class="w-7 h-7 rounded-full" /></a>
+      <a href="#"><img src="/assets/icon-twitter.png" alt="" class="w-7 h-7 rounded-full" /></a>
+      <a href="#"><img src="/assets/icon-facebook.png" alt="" class="w-7 h-7 rounded-full" /></a>
+      <a href="#"><img src="/assets/icon-youtube.png" alt="" class="w-7 h-7 rounded-full" /></a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
